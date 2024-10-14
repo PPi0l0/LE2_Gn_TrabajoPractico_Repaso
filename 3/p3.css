@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+
+input {
+    width: 70%;
+    padding: 10px;
+}
+
+button {
+    width: 20%;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    transition: background-color .5s;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #0b2224;
+    color: #fff;
+}
+
+ul {
+    text-align: left;
+}
+
+ul li {
+    border-bottom: 1px dashed #333;
+    margin: 8px 0;
+}
+
+span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(42, 154, 134);
+    border-radius: 20%;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: rgb(26, 102, 98);
+}

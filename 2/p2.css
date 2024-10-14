@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    background: url(https://png.pngtree.com/background/20210710/original/pngtree-vector-abstract-perspective-flyer-or-banner-with-white-backgroun-picture-image_984883.jpg) no-repeat center;
+}
+.form {
+   background: url('https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg') no-repeat center ; 
+   border: 5PX grey outset;
+   padding: 20px;
+   margin: 20px 500px 20px 500px;
+} 

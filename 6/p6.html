@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="p6.css">
+<head>
+    <TItle>Deslizador</TItle>
+</head>
+<h1> BRILLO DEL LED</h1>
+
+<body> 
+<input type="range"  min="0" max="255" step="1" value="0" oninput="mover()" id="lum">
+<div id="valor">0</div>
+</div>
+<script> 
+const brillo = document.getElementById("lum");
+const valor = document.getElementById("valor");
+var tr;
+function mover(){
+    valPercent = (brillo.value / brillo.max)*255;
+    valor.textContent = brillo.value;
+    tr = (brillo.value/255);
+    brillo.style.boxShadow = '11000px 11000px 15000px 15000px rgba(255, 255, 255, '+tr+')';
+    
+}
+mover();
+
+</script>
+
+</body>

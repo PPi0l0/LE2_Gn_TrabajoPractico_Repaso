@@ -1,0 +1,62 @@
+body{
+    background: url('https://www.xtrafondos.com/thumbs/1_12262.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 50px;
+    margin: 50;
+    text-align: center;
+}
+.img1 {
+    display: inline-block;
+    overflow: hidden;
+}
+.imagen1{
+        width: 300px;
+        height: 300px;
+        transition: transform 1s ease-in-out;
+    }
+    
+    .imagen1:hover {
+        transform: scale(1.5); /* Aumenta el tamaño de la imagen al pasar el cursor */
+    }
+    .img2 {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+.imagen2{
+        width: 300px;
+        height: 300px;
+        transition: transform 1s ease-in-out;
+    }
+    
+    .imagen2:hover {
+        transform: scale(1.5); /* Aumenta el tamaño de la imagen al pasar el cursor */
+    }
+    .img3 {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+.imagen3{
+        width: 300px;
+        height: 300px;
+        transition: transform 1s ease-in-out;
+    }
+    
+    .imagen3:hover {
+        transform: scale(1.5); /* Aumenta el tamaño de la imagen al pasar el cursor */
+    }
+    .img4 {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+.imagen4{
+        width: 300px;
+        height: 300px;
+        transition: transform 6s ease-in-out;
+    }
+    
+    .imagen4:hover {
+        transform: scale(9.1); /* Aumenta el tamaño de la imagen al pasar el cursor */
+    }

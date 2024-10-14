@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html> 
+    <link rel="stylesheet" type="text/css" href="p2.css">
+<head>
+<title> FORMULARIO</title>
+</head>
+<br>
+<h1> COMPLETE EL FORMULARIO</h1>
+<br>
+<hr>
+<div class="form">
+<form id ="nom">
+<input type= "text" placeholder="Nombre" required>
+<button type="submit">Enviar</button>
+</form>
+<script>
+    document.getElementById("nom").addEventListener("submit", function(event) {
+        event.preventDefault();
+        console.log("Formulario enviado");
+        alert("LISTO");
+    });
+</script>
+<br><br>
+<form id ="ape">
+    <input type= "text" placeholder="Apellido" required>
+    <button type="submit">Enviar</button>
+    </form>
+    <script>
+        document.getElementById("ape").addEventListener("submit", function(event) {
+            event.preventDefault();
+            console.log("Formulario enviado");
+            alert("LISTO");
+        });
+    </script>
+    <br><br>
+    <form id ="mail">
+        <input type= "email" placeholder="Email" required>
+        <button type="submit">Enviar</button>
+        </form>
+        <script>
+            document.getElementById("mail").addEventListener("submit", function(event) {
+                event.preventDefault();
+                console.log("Formulario enviado");
+                alert("LISTO");
+            });
+        </script>
+        
+<br><br>
+<form id ="tel">
+    <label for="rang"> + 54 </label>
+    <input type= "number" placeholder="Numero de telefono" required min="10000000" max="99999999">
+    <button type="submit">Enviar</button>
+    </form>
+    <script>
+        document.getElementById("tel").addEventListener("submit", function(event) {
+            event.preventDefault();
+            console.log("Formulario enviado");
+            alert("LISTO");
+        });
+    </script>
+<br><br>
+<form id ="fec">
+    <input type= "date" placeholder="fecha" required>
+    <button type="submit">Enviar</button>
+    </form>
+    <script>
+        document.getElementById("fec").addEventListener("submit", function(event) {
+            event.preventDefault();
+            console.log("Formulario enviado");
+            alert("LISTO");
+        });
+    </script>
+<br>
+<br>
+    <form id ="rang">
+        <label for="rang"> Elija una posicion adecuada para </label>
+        <input type= "range" name="edad" id="rang" min="1" max="99" step="1">
+        <output class="rang-output" for="rang"></output>
+        <button type="submit">Enviar</button>
+        </form>
+        <script>
+            document.getElementById("rang").addEventListener("submit", function(event) {
+                event.preventDefault();
+                console.log("Formulario enviado");
+                alert("si solo eso, no esta mal hecho esa es la idea");
+            });
+        </script>
+    <br><br>
+    <form id ="color">
+        <label for="rang"> Elija un color</label>
+        <input type= "color" placeholder="color" required>
+        <button type="submit">Enviar</button>
+        </form>
+        <script>
+            document.getElementById("color").addEventListener("submit", function(event) {
+                event.preventDefault();
+                console.log("Formulario enviado");
+                alert("LISTO");
+            });
+        </script>
+
+</div>
+<hr>
+</html>

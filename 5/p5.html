@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="p5.css">
+<head>
+    <TItle>3 leds</TItle>
+</head>
+<h1> seleccione un led </h1>
+<body>
+<div class="pink">
+    <form id ="pink">
+    <button class= "btnp" type="submit">ROSA</button>
+    </form>
+    <script>
+        document.getElementById("pink").addEventListener("submit", function(event) {
+            event.preventDefault();
+            console.log("led ROSA ON");
+            digitalWrite(ledp,HIGH);
+            digitalWrite(ledn,LOW);
+            digitalWrite(ledc,LOW);
+    });
+    </script>
+    <br>
+    <br>
+</div>
+    <div class="orange">
+        <form id ="orange">
+        <button class= "btnn"type="submit">NARANJA</button>
+        </form>
+        <script>
+            document.getElementById("orange").addEventListener("submit", function(event) {
+                event.preventDefault();
+                console.log("led NARANJA ON");
+                digitalWrite(ledp,LOW);
+                digitalWrite(ledn,HIGH);
+                digitalWrite(ledc,LOW);
+        });
+        </script>
+        <br>
+        <br>
+
+        <div class="cyan">
+            <form id ="cyan">
+            <button class= "btnc" type="submit">CYAN</button>
+            </form>
+            <script>
+                document.getElementById("cyan").addEventListener("submit", function(event) {
+                    event.preventDefault();
+                    console.log("led CYAN ON");
+                    digitalWrite(ledp,LOW);
+                    digitalWrite(ledn,LOW);
+                    digitalWrite(ledc,HIGH);
+            });
+            </script>
+</body>
+            
+</html>
